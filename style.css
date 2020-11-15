@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 3%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+}
+
+header {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1%;
+}
+
+.logo {
+    width: 20%;
+    height: auto;
+}
+
+div {
+    flex-basis: 20%;
+    height: 15vh !important;
+    border: 2px solid white;
+    border-radius: 2%;
+}
+
+
+
+@media(orientation:portrait) {
+
+    body {
+        margin: 2%;
+    }
+
+    header {
+        margin-bottom: 1%;
+    }
+
+    .logo {
+        width: 30%;
+        height: auto;
+    }
+
+    div {
+        flex-basis: 50%;
+        height: 9vh !important;
+        border: 1px solid white;
+    }
+
+
+
+}
+
+.akali {
+    background-image: url("img/Akali.jpg");
+    height: 20vh;
+    background-size: 100%;
+    width: auto;
+}
+
+.amumu {
+    background-image: url("img/Amumu.jpg");
+    height: 20vh;
+    background-size: 100%;
+    width: auto;
+}
+
+.annie {
+    background-image: url("img/Annie.jpg");
+    height: 20vh;
+    background-size: 100%;
+    width: auto;
+}
+
+.brand {
+    background-image: url("img/Brand.jpg");
+    height: 20vh;
+    background-size: 100%;
+    width: auto;
+}
+
+.ezreal {
+    background-image: url("img/Ezreal.jpg");
+    height: 20vh;
+    background-size: 100%;
+    width: auto;
+}
+
+.graves {
+    background-image: url("img/Graves.jpg");
+    height: 20vh;
+    background-size: 100%;
+    width: auto;
+}
+
+.jhin {
+    background-image: url("img/Jhin.jpg");
+    height: 20vh;
+    background-size: 100%;
+    width: auto;
+}
+
+.kalista {
+    background-image: url("img/Kalista.jpg");
+    height: 20vh;
+    background-size: 100%;
+    width: auto;
+}
+
+.senna {
+    background-image: url("img/Senna.jpg");
+    height: 20vh;
+    background-size: 100%;
+    width: auto;
+}
+
+.zoe {
+    background-image: url("img/Zoe.jpg");
+    height: 20vh;
+    background-size: 100%;
+    width: auto;
+}
+
+.off {
+    background-image: url("img/win.png");
+    background-size: 100%;
+
+}
+
+.hidden {
+    background-color: #000;
+    background-image: none;
+}
