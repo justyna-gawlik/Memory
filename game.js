@@ -62,7 +62,7 @@ setTimeout(function(){
         if(gamePairs===gameResult){
         const endTime=new Date().getTime();
         const gameTime=(endTime-startTime)/1000;
-            alert(`koniec gry. Twój wynik to ${gameTime} sekund! i wykonałeś ${clickTimes} ruchów`);
+            alert(`Game over. Your result is ${gameTime} seconds!`);
         location.reload();
         }
         
