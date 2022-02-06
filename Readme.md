@@ -8,8 +8,6 @@
 
 To run this project install it locally and open index.html live server using for example Visual Studio Code or Atom.
 
-You can use it also here: http://justynagawlik.pl/
-
 ## Inspiration
 
 This app is inspired by Samuraj Programowania (https://www.youtube.com/watch?v=gKUUHjEg7mQ)
